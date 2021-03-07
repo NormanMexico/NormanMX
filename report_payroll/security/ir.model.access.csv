@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_jefe_r_isn,access_jefe_r_isn,model_wizard_reporte_isn,grupo_administrador,1,1,1,1
+
+access_urs_local_r_isn,access_urs_local_r_isn,model_wizard_reporte_isn,grupo_usuario_local,1,0,0,0

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="report_isn_nomina" model="ir.module.category">
+        <field name="name">Reporte de 2% ISN</field>
+        <field name="sequence">1</field>
+    </record>
+    <record id="grupo_administrador" model="res.groups">
+        <field name="name">Puede ver reporte de ISN</field>
+        <field name="category_id" ref="report_isn_nomina"/>
+    </record>
+    <record id="grupo_usuario_local" model="res.groups">
+        <field name="name">No puede generar reporte de ISN</field>
+        <field name="category_id" ref="report_isn_nomina"/>
+    </record>
+</odoo>

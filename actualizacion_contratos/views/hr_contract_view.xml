@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Inherit Form View to Modify it -->
+   <record id="hr_contract_form_add_fields_ded" model="ir.ui.view">
+        <field name="name">hr.contract.nomina.cfdi.add.ina.intern.kuh7.ded</field>
+        <field name="model">hr.contract</field>
+        <field name="inherit_id" ref="nomina_cfdi_extras_ee.view_hr_contract_historial_salario_form"/>
+        <field name="arch" type="xml">
+            <field name="deduccion_adicional" position="after">
+                <field name="descount_comedor" />
+                <field name="descount_back_to_school" />
+                <field name="descount_glasses" />
+            </field>
+        </field>
+    </record>
+</odoo>
